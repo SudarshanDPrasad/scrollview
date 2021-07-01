@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0583EA"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:paddingLeft="25dp"
+        android:drawablePadding="30dp"
+        android:text="What topic do you love ?"
+        android:gravity="center|start"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnbooks"
+       style="@style/dimension"
+        android:layout_below="@+id/tvLogin"
+        android:text="BOOKS"
+
+        />
+
+    <Button
+        android:id="@+id/btnpodcast"
+        style="@style/dimension1"
+        android:layout_below="@+id/tvLogin"
+        android:layout_toEndOf="@+id/btnbooks"
+        android:text="PODCASTS"
+        />
+
+    <Button
+        android:id="@+id/btnnews"
+        style="@style/dimension1"
+        android:layout_below="@+id/btnbooks"
+        android:text="NEWS"
+        />
+
+
+    <Button
+        android:id="@+id/btnbusiness"
+        style="@style/dimension1"
+        android:layout_below="@+id/btnbooks"
+        android:layout_toEndOf="@+id/btnnews"
+        android:text="BUSINESS"
+
+        />
+
+    <Button
+        android:id="@+id/btnentertainment"
+        style="@style/dimension1"
+        android:layout_below="@+id/btnnews"
+        android:text="ENTERTAINMNET"
+        />
+
+    <Button
+        android:id="@+id/btnsports"
+        style="@style/dimension"
+        android:layout_below="@+id/btnbusiness"
+        android:layout_toEndOf="@+id/btnnews"
+        android:text="SPORTS"
+
+        />
+
+    <Button
+        android:id="@+id/btntechnology"
+        style="@style/dimension"
+        android:layout_below="@+id/btnentertainment"
+        android:layout_marginTop="40dp"
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:text="TECHNOLOGY"
+        android:background="@drawable/ic_rectangle_14"
+        />
+
+    <Button
+        android:id="@+id/btnpronuciation"
+        style="@style/dimension1"
+        android:layout_below="@+id/btnsports"
+        android:layout_toEndOf="@+id/btnnews"
+        android:text="PRONUCIATION"
+
+        />
+
+    <Button
+        android:id="@+id/btngrammer"
+        style="@style/dimension1"
+        android:layout_below="@+id/btntechnology"
+        android:text="GRAMMER"
+        />
+
+    <Button
+        android:id="@+id/btnhealth"
+        style="@style/dimension"
+        android:layout_below="@+id/btnpronuciation"
+        android:layout_toEndOf="@+id/btnnews"
+        android:text="HEALTH"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue">
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="continue"
+        android:background="@drawable/rect3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+    </Button>
+</RelativeLayout>

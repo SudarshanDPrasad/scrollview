@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvschedule"
+        style="@style/width"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/schedule_meeting"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/dp_30" />
+
+
+    <TextView
+        android:id="@+id/tvname"
+        style="@style/margin"
+        android:layout_below="@+id/tvschedule"
+        android:text="@string/name"
+        android:textSize="@dimen/dp_20" />
+
+    <EditText
+        android:id="@+id/etenterthename"
+        style="@style/width2"
+        android:layout_below="@+id/tvname"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:hint="@string/enter_the_name" />
+
+    <TextView
+        android:id="@+id/tvdate"
+        style="@style/date"
+        android:layout_below="@+id/etenterthename"
+        android:text="@string/tue_22_december_2020"
+        android:textSize="@dimen/dp_20" />
+
+    <TextView
+        android:id="@+id/tvtime"
+        style="@style/date"
+        android:layout_below="@+id/etenterthename"
+        android:layout_toEndOf="@+id/tvdate"
+        android:text="@string/_11_30"
+        android:textSize="@dimen/dp_20" />
+
+    <TextView
+        android:id="@+id/tvinvite"
+        style="@style/margin"
+        android:layout_below="@+id/tvdate"
+        android:text="@string/people_to_invite"
+        android:textSize="@dimen/dp_20" />
+
+    <EditText
+        android:id="@+id/etinvite"
+        style="@style/width2"
+        android:layout_below="@+id/tvinvite"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:drawableEnd="@drawable/ic_baseline_search_24"
+        android:paddingRight="@dimen/dp_30"
+        android:hint="@string/enter_the_name" />
+
+    <ImageView
+        android:id="@+id/ivprateek"
+        style="@style/image"
+        android:layout_below="@+id/etinvite"
+        android:src="@drawable/prateek" />
+
+    <ImageView
+        android:id="@+id/ivbezos"
+        style="@style/image"
+        android:layout_below="@+id/etinvite"
+        android:layout_toEndOf="@+id/ivprateek"
+        android:src="@drawable/jeff_bezos" />
+
+    <TextView
+        android:id="@+id/tvline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivprateek"
+        android:drawableBottom="@drawable/ic_line_1__1_" />
+
+    <ImageView
+        android:id="@+id/ivprateek1"
+        style="@style/width"
+        android:layout_below="@+id/tvline"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="@dimen/dp_20"
+        android:src="@drawable/prateek" />
+
+    <TextView
+        android:id="@+id/tvline1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivprateek1"
+        android:layout_marginLeft="60dp"
+        android:drawableBottom="@drawable/ic_line_1__1_" />
+
+    <TextView
+        android:id="@+id/tvtwitername"
+        style="@style/names"
+        android:layout_below="@id/tvline"
+        android:layout_toEndOf="@id/ivprateek1"
+        android:drawableEnd="@drawable/ic_vector__2_"
+        android:text="@string/pratheek_shukla" />
+
+    <TextView
+        style="@style/width"
+        android:layout_below="@id/tvline"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/tvtwitername"
+        android:text="@string/pratshukla" />
+
+    <ImageView
+        android:id="@+id/ivbezos1"
+        style="@style/width"
+        android:layout_below="@+id/tvline1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="@dimen/dp_20"
+        android:src="@drawable/jeff_bezos" />
+
+    <TextView
+        android:id="@+id/tvtwitername1"
+        style="@style/names"
+        android:layout_below="@id/tvline1"
+        android:layout_toEndOf="@id/ivprateek1"
+        android:drawableEnd="@drawable/ic_vector__2_"
+        android:text="@string/jeff_bezos" />
+
+    <TextView
+        style="@style/width"
+        android:layout_below="@id/tvline1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/tvtwitername"
+        android:text="@string/jeffbezos" />
+
+    <TextView
+        android:id="@+id/tvline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtwitername1"
+        android:layout_marginTop="@dimen/dp_20"
+        android:drawableBottom="@drawable/ic_line_1__1_" />
+
+    <TextView
+        android:id="@+id/tvnotify"
+        style="@style/width"
+        android:layout_below="@id/tvline2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:drawableEnd="@drawable/ic_group__3_"
+        android:drawablePadding="10dp"
+        android:text="@string/notify_people_on_slack"
+        android:textSize="@dimen/dp_20"
+        android:textStyle="italic" />
+
+    <Button
+      style="@style/width"
+        android:text="Create Meeting"
+        android:layout_below="@id/tvnotify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

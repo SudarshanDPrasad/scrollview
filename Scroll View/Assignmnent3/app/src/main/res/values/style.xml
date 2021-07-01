@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dimension">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:drawableBottom">@drawable/ic_line_1__1_</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:background">@drawable/ic_rectangle_14</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="dimension1">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:drawableBottom">@drawable/ic_line_1__1_1</item>
+        <item name="android:background">@drawable/ic_rectangle_15</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>

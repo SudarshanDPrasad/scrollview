@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="custome_text_view">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dp_20</item>
+        <item name="android:layout_margin">@dimen/dp_20</item>
+    </style>
+
+    <style name="button">
+        <item name="android:background">@color/grey</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_toEndOf">@+id/tvtitle</item>
+        <item name="android:layout_marginLeft">@dimen/dp_20</item>
+    </style>
+
+    <style name="custome_edit_text">
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:layout_marginTop">@dimen/dp_20</item>
+        <item name="android:layout_marginRight">@dimen/dp_20</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+</resources>

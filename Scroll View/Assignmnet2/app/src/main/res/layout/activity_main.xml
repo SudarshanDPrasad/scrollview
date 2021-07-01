@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/blue"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Create Account"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/customise_text"
+        android:layout_below="@+id/create"
+        android:hint="@string/enter_the_emailid"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        style="@style/customise_text"
+        android:layout_below="@+id/email"
+        android:hint="@string/enter_the_user_name"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/customise_text"
+        android:layout_below="@+id/name"
+        android:hint="@string/password_minimum_6_characters"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnphone"
+        style="@style/width"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="USE PHONE NUMBER" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        style="@style/width"
+        android:background="@drawable/rectangle"
+        android:layout_below="@+id/btnphone"
+        android:text="@string/sign_up"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/tvor"
+       style="@style/width"
+        android:text="@string/or"
+        android:layout_below="@+id/btnsignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/btcontinuewithfacebook"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/tvor"
+        android:text="Continue with facebook"
+        android:drawableLeft="@drawable/ic_ion_logo_facebook"
+        android:background="@drawable/recyangle1"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btcontinuewuthgoogle"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/btcontinuewithfacebook"
+        android:text="Continue with Google"
+        android:drawableLeft="@drawable/ic_flat_color_icons_google__1_"
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">you_part</string>
+    <string name="add_new_employee">Add New Employee</string>
+    <string name="title">Title :</string>
+    <string name="select_option">Select Option</string>
+    <string name="enter_the_first_name">First Name :</string>
+    <string name="enter_the_name_hint">Enter the Name</string>
+    <string name="enter_the_last_name">Enter the Last Name</string>
+    <string name="last_name">Last Name : </string>
+    <string name="work_email_id">Work Email : </string>
+    <string name="enter_the_work_email_id">Enter the Work Email-id</string>
+    <string name="this_is_also_used_as_login_for_cokehp">(This is also used as login for CokeHP)</string>
+</resources>

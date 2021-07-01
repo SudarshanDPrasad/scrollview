@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="enter_the_emailid">Enter the emailid</string>
+    <string name="enter_the_user_name">Enter the user name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">or</string>
+    <string name="password_minimum_6_characters">Password (minimum 6 Characters)</string>
+</resources>

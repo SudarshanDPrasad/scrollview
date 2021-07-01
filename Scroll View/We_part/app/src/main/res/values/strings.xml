@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">We_part</string>
+    <string name="enter_the_name">Enter the Name</string>
+    <string name="enter_the_id">Enter the id</string>
+    <string name="enter_the_date_of_birth">Enter the Date Of Birth</string>
+    <string name="enter_the_blood_group">Enter the Blood Group</string>
+    <string name="enter_the_phone_number">Enter the Phone Number</string>
+    <string name="enter_the_state">Enter the State</string>
+    <string name="enter_the_district">Enter the District</string>
+    <string name="enter_the_address">Enter the address</string>
+</resources>

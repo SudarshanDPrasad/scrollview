@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter the Below Details : "
+            android:layout_gravity="center|top"
+            android:textSize="@dimen/dp_20">
+
+        </TextView>
+
+        <EditText
+           style="@style/custom_edit_text"
+            android:hint="@string/enter_the_name"/>
+
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_id"/>
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_date_of_birth"/>
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_blood_group"/>
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_phone_number"/>
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_phone_number"/>
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_state"/>
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_district"/>
+
+        <EditText
+            style="@style/custom_edit_text"
+            android:hint="@string/enter_the_address"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you "
+            android:layout_gravity="center|bottom"
+            android:textSize="@dimen/dp_20"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
